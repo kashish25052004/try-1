@@ -7,20 +7,30 @@
 body{
     margin:0px;
     overflow-x:hidden ;
-    background: linear-gradient(to bottom, #282c2c, #e790bf);
+    /* background: linear-gradient(to bottom, #282c2c, #e790bf); */
+    background-color: black;
 
     
 
 }
-.boxmain{
-    width:200px;
-    height:150px;
-    margin:auto;
-    border:2px solid black;
-    display:block;
-    margin-top:100px;
-    text-align: center;
 
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+}
+
+.boxcontent{
+    width:70vw;
+    margin:auto;
+    border-radius: 5px;
+    display:block;
+    padding: 20px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 15px 5px rgb(225, 114, 132);
+    color:white;
     
 
 }
@@ -28,7 +38,19 @@ body{
 .btn{
     padding:5px;
     width:80px;
+    margin:10px;
+    border:none;
+    box-shadow: 0px 0px 7px 4px rgb(225, 114, 132);
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+    cursor:pointer;
 
+}
+
+
+.maincontent{
+    display:none;
 }
 
 .box1{
@@ -39,7 +61,7 @@ body{
     background: linear-gradient(to bottom, #282c2c, #e790bf);
     perspective: 1000px; /* 3D effect */
     /* display:none; */
-    opacity: 0;
+    opacity: 1;
 
     
 }
@@ -80,6 +102,32 @@ body{
     
 
 }
+
+.extra{
+    width:70vw;
+    margin:auto;
+    border-radius: 5px;
+    display:none;
+    padding: 20px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 15px 5px rgb(225, 114, 132);
+    color:white;
+    
+}
+
+.msg{
+    width:70vw;
+    margin:auto;
+    border-radius: 5px;
+    display:none;
+    padding: 20px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 15px 5px rgb(225, 114, 132);
+    color:white;
+
+}
+
+
 
 
 
