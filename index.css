@@ -1,0 +1,87 @@
+.border{
+    border:2px solid red;
+}
+
+
+
+body{
+    margin:0px;
+    overflow-x:hidden ;
+    background: linear-gradient(to bottom, #282c2c, #e790bf);
+
+    
+
+}
+.boxmain{
+    width:200px;
+    height:150px;
+    margin:auto;
+    border:2px solid black;
+    display:block;
+    margin-top:100px;
+    text-align: center;
+
+    
+
+}
+
+.btn{
+    padding:5px;
+    width:80px;
+
+}
+
+.box1{
+    height:1500px;
+    width:350px;
+    margin:auto;
+    position: relative;
+    background: linear-gradient(to bottom, #282c2c, #e790bf);
+    perspective: 1000px; /* 3D effect */
+    /* display:none; */
+    opacity: 0;
+
+    
+}
+
+.hand{
+    /* width: 40vw;  Responsive width */
+    width: 80%;  
+    
+}
+
+.hand1{
+    position: absolute;
+    top:20%;
+    right:0%;
+    z-index: 2;
+
+}
+
+.hand2{
+    position: absolute;
+    bottom:20%;
+    left:0%;
+    z-index: 2;
+
+}
+
+.flower{
+    position: absolute;
+    width: 70%;
+    
+    top: 0%;
+    right: 76%;
+    
+    transform: translate(73%, 50%) rotate(0deg);
+    
+    transition: all 3s ease;
+    z-index: 1;
+    
+
+}
+
+
+
+
+
